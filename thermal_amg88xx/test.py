@@ -5,6 +5,8 @@ import adafruit_amg88xx
 i2c = busio.I2C(board.SCL, board.SDA)
 amg = adafruit_amg88xx.AMG88XX(i2c)
 
+#this is just a git test
+
 while True:
     
     for row in amg.pixels:
