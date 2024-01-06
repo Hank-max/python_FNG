@@ -10,7 +10,7 @@ import os
 import shutil
 
 source_dir = 'C:/ProgramData/qfit/cvdata'
-target_dir = 'C:/Users/henry_ah1kl9o/OneDrive/Docu'
+target_dir = 'C:/Users/henry_ah1kl9o/OneDrive/Documents/GitHub/python_FNG/BJ_data_files'
 
 for file_name in os.listdir(source_dir):
     if file_name.endswith('.csv'):
